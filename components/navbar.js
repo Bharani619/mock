@@ -7,7 +7,7 @@ function navbar(){
         <div><button onclick="window.location.href='reports.html'">REPORTS</button></div>
     </div>
     <div class="loginBtn">
-        <div><button>LOGIN</button></div>
+        <div><button onclick="window.location.href='login.html'">LOGIN</button></div>
     </div>
 </nav>
     `
