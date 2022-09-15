@@ -1,0 +1,45 @@
+body{
+    margin:0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.3em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.logo{
+    width:25%;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pages{
+    width: 35%;
+    display: flex;
+    gap:8%;
+    align-items: center;
+}
+.pages button{
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 17px;
+    color: grey;
+    cursor: pointer;
+}
+.pages button:hover{
+    text-decoration: underline;
+}
+.loginBtn button{
+    width: 80px;
+    padding: 0.3em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}

@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+#sectionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5%;
+}
+#sectionContainer button{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#sectionContainer button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.75s;
+    cursor: pointer;
+}
